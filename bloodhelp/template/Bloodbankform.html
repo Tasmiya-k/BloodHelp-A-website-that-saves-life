@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blood Bank Details</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    
+  </head>
+  <body>
+    <img src="bg.jpg" alt="bg" class="bg" />
+    <div class="container">
+      <h1>Blood Bank Details</h1>
+      
+      <form action="index.php" method="post">
+        <input
+          type="text"
+          name="Blood Bank Name"
+          id="Blood Bank Name"
+          placeholder="Enter the Blood Bank Name"
+        />
+
+        <input
+          type="text"
+          name="Admin"
+          id="Admin"
+          placeholder="Enter Admin ID"
+        />
+        
+        <input 
+        type="password"
+        name="Pass"
+        id="Pass"
+        placeholder="Enter your password"
+        >
+
+        <input
+          type="text"
+          name="Phone"
+          id="Phone"
+          placeholder="Enter your phone number"
+        />
+
+        <input
+          type="text"
+          name="Location"
+          id="Location"
+          placeholder="Enter the preferred location"
+        />
+
+        <textarea
+          name="description"
+          id="description"
+          cols="20"
+          rows="10"
+          placeholder="Add additional information here if any"
+        >
+        </textarea>
+        <button class="btn">
+          <a href="/bloodbankinterface">Submit</a></button>
+      </form>
+    </div>
+  </body>
+ 
+</html>
